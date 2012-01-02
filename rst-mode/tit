@@ -1,0 +1,10 @@
+# name: Document title
+# key: tit
+# --
+${1:$(concat ".. _" (downcase (replace-regexp-in-string " " "-" text)) "-label:")}
+
+${1:$(make-string (string-width text) ?\=)}
+${1:Title}
+${1:$(make-string (string-width text) ?\=)}
+
+$0

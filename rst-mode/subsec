@@ -1,0 +1,9 @@
+# name: Subsection title
+# key: subsec
+# --
+${1:$(concat ".. _" (downcase (replace-regexp-in-string " " "-" text)) "-label:")}
+
+${1:Sub Section}
+${1:$(make-string (string-width text) ?\+)}
+
+$0
