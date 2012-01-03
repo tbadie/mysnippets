@@ -1,7 +1,7 @@
 # name: Section title
 # key: sec
 # --
-${1:$(concat ".. _" (downcase (replace-regexp-in-string " " "-" text)) "-label:")}
+${1:$(concat ".. _sec-" (downcase (replace-regexp-in-string " " "-" text)) "-label:")}
 
 ${1:Section}
 ${1:$(make-string (string-width text) ?\-)}

@@ -1,7 +1,7 @@
 # name: Paragraph title
 # key: par
 # --
-${1:$(concat ".. _" (downcase (replace-regexp-in-string " " "-" text)) "-label:")}
+${1:$(concat ".. _par-" (downcase (replace-regexp-in-string " " "-" text)) "-label:")}
 
 ${1:Paragraphe}
 ${1:$(replace-regexp-in-string "=" "^" (make-string (string-width text) ?\=))}
