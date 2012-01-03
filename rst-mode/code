@@ -1,0 +1,4 @@
+# name: Code block
+# key: code
+# --
+.. code-block:: ${1:Language}$0

@@ -1,0 +1,4 @@
+# name: Image
+# key: img
+# --
+.. image:: ${1:Image}$0
