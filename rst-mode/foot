@@ -1,0 +1,6 @@
+# name: Footnote
+# key: foot
+# --
+[#f${1:Number}]_
+
+.. [#f$1] ${2:Body}$0

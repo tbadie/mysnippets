@@ -7,4 +7,3 @@ ${1:Paragraphe}
 ${1:$(replace-regexp-in-string "=" "^" (make-string (string-width text) ?\=))}
 
 $0
-
